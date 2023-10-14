@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Formik } from "formik";
-import { NotesDataContext } from "../Context/NotesContext";
+import { NotesDataContext } from "../Context/Notescontext";
 import { toast } from "react-toastify";
 import axios from "axios";
 import * as Yup from "yup";
