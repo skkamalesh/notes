@@ -1,5 +1,5 @@
 import React from 'react';
-import AddNotes from './AddNotes';
+import AddNotes from './Addnotes';
 
 function Home() {
 	return (
