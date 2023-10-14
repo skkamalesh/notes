@@ -4,7 +4,7 @@ import { NotesDataContext } from "../Context/Notescontext";
 import { toast } from "react-toastify";
 import axios from "axios";
 import * as Yup from "yup";
-import { userDataContext } from "../Context/DataContext";
+import { userDataContext } from "../Context/Datacontext";
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
 import EditOutlinedIcon from "@mui/icons-material/EditOutlined";
 import DescriptionOutlinedIcon from "@mui/icons-material/DescriptionOutlined";

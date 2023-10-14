@@ -1,16 +1,16 @@
 import Home from './Components/Home';
 import Sidebar from './Components/Sidebar';
 import Notescontext from './Context/Notescontext';
-import DataContext from './Context/DataContext';
+import Datacontext from './Context/Datacontext';
 
 function App() {
 	return (
 		<div className='flex gap-5 '>
 			<Sidebar />
 			<Notescontext>
-				<DataContext>
+				<Datacontext>
 					<Home />
-				</DataContext>
+				</Datacontext>
 			</Notescontext>
 		</div>
 	);

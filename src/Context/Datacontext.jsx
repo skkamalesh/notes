@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 export const userDataContext = React.createContext(null);
-function DataContext({ children }) {
+function Datacontext({ children }) {
 	let [data, setData] = useState([]);
 	return (
 		<userDataContext.Provider value={{ data, setData }}>
@@ -9,4 +9,4 @@ function DataContext({ children }) {
 	);
 }
 
-export default DataContext;
+export default Datacontext;
